@@ -1,0 +1,28 @@
+body{
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+}
+.image{
+    flex: 1 15%;
+    /*border: 1px solid red;*/
+    margin: 0.2em;
+    color:#585858;
+    position: relative;
+    padding: 1em;
+}
+
+h2{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    margin: 0px;
+
+    color: white;
+    font-family: monospace;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
